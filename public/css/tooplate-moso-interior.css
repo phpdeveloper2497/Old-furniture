@@ -7,7 +7,7 @@ https://www.tooplate.com/view/2133-moso-interior
 */
 
 /*---------------------------------------
-  CUSTOM PROPERTIES ( VARIABLES )             
+  CUSTOM PROPERTIES ( VARIABLES )
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
@@ -51,12 +51,12 @@ https://www.tooplate.com/view/2133-moso-interior
 
 body {
     background-color: var(--white-color);
-    font-family: var(--body-font-family); 
+    font-family: var(--body-font-family);
     padding-top: 70px;
 }
 
 /*---------------------------------------
-  TYPOGRAPHY               
+  TYPOGRAPHY
 -----------------------------------------*/
 
 h2,
@@ -114,7 +114,7 @@ ul li {
   font-weight: var(--font-weight-normal);
 }
 
-a, 
+a,
 button {
   touch-action: manipulation;
   transition: all 0.3s;
@@ -143,7 +143,7 @@ strong {
 
 
 /*---------------------------------------
-  SECTION               
+  SECTION
 -----------------------------------------*/
 .section-padding {
   padding-top: 100px;
@@ -229,7 +229,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM LINK               
+  CUSTOM LINK
 -----------------------------------------*/
 .custom-link {
   color: var(--p-color);
@@ -271,7 +271,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM BADGE               
+  CUSTOM BADGE
 -----------------------------------------*/
 .custom-badge {
   background: var(--white-color);
@@ -301,7 +301,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM BUTTON               
+  CUSTOM BUTTON
 -----------------------------------------*/
 .custom-btn {
   background: var(--custom-btn-bg-color);
@@ -334,7 +334,7 @@ strong {
 
 
 /*---------------------------------------
-  NAVIGATION              
+  NAVIGATION
 -----------------------------------------*/
 .navbar {
   padding-top: 0;
@@ -368,7 +368,7 @@ strong {
   padding-bottom: 15px;
 }
 
-.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
   background: var(--primary-color);
   color: var(--white-color);
@@ -395,9 +395,9 @@ strong {
   border-bottom: 0;
 }
 
-.dropdown-item.active, 
+.dropdown-item.active,
 .dropdown-item:active,
-.dropdown-item:focus, 
+.dropdown-item:focus,
 .dropdown-item:hover {
   background: var(--primary-color);
   color: var(--white-color);
@@ -496,7 +496,7 @@ strong {
 
 
 /*---------------------------------------
-  SITE HEADER              
+  SITE HEADER
 -----------------------------------------*/
 .site-header {
   background-image: url('../images/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering.jpg');
@@ -509,7 +509,7 @@ strong {
 
 
 /*---------------------------------------
-  HERO              
+  HERO
 -----------------------------------------*/
 .hero-section {
   position: relative;
@@ -562,11 +562,11 @@ strong {
 
 
 /*---------------------------------------
-  ABOUT              
+  ABOUT
 -----------------------------------------*/
 .about-section {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .about-image {
@@ -585,7 +585,7 @@ strong {
 }
 
 /*---------------------------------------
-  FEATURED              
+  FEATURED
 -----------------------------------------*/
 .featured-section {
   background-image: url('../images/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering.jpg');
@@ -600,7 +600,7 @@ strong {
 
 
 /*---------------------------------------
-  REVIEWS              
+  REVIEWS
 -----------------------------------------*/
 .reviews-section {
   background: var(--section-bg-color);
@@ -620,7 +620,7 @@ strong {
   right: 0;
 }
 
-.reviews-carousel .owl-nav button.owl-next, 
+.reviews-carousel .owl-nav button.owl-next,
 .reviews-carousel .owl-nav button.owl-prev {
   background: var(--white-color);
   border-radius: var(--border-radius-large);
@@ -630,17 +630,17 @@ strong {
   transition: all 0.5s;
 }
 
-.reviews-carousel .owl-nav button.owl-next:hover, 
+.reviews-carousel .owl-nav button.owl-next:hover,
 .reviews-carousel .owl-nav button.owl-prev:hover {
   background: var(--secondary-color);
 }
 
-.reviews-carousel .owl-prev:hover span::before, 
+.reviews-carousel .owl-prev:hover span::before,
 .reviews-carousel .owl-next:hover span::before {
   color: var(--white-color);
 }
 
-.reviews-carousel .owl-prev span, 
+.reviews-carousel .owl-prev span,
 .reviews-carousel .owl-next span {
   display: block;
   color: transparent;
@@ -649,7 +649,7 @@ strong {
   line-height: 60px;
 }
 
-.reviews-carousel .owl-prev span::before, 
+.reviews-carousel .owl-prev span::before,
 .reviews-carousel .owl-next span::before {
   font-family: bootstrap-icons;
   display: block;
@@ -718,7 +718,7 @@ strong {
 
 
 /*---------------------------------------
-  SHOP              
+  SHOP
 -----------------------------------------*/
 .shop-section {
   background: var(--white-color);
@@ -821,7 +821,7 @@ strong {
 
 
 /*---------------------------------------
-  CONTACT               
+  CONTACT
 -----------------------------------------*/
 .contact-section {
   background: var(--white-color);
@@ -844,7 +844,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM FORM               
+  CUSTOM FORM
 -----------------------------------------*/
 .custom-form .input-group {
   background-color: var(--white-color);
@@ -896,7 +896,7 @@ strong {
 
 
 /*---------------------------------------
-  FILTER FORM              
+  FILTER FORM
 -----------------------------------------*/
 .filter-form {
   border: 1px solid var(--border-color);
@@ -919,7 +919,7 @@ strong {
 
 
 /*---------------------------------------
-  SITE FOOTER              
+  SITE FOOTER
 -----------------------------------------*/
 .site-footer {
   background: var(--site-footer-bg-color);
@@ -951,7 +951,7 @@ strong {
 
 
 /*---------------------------------------
-  SOCIAL ICON               
+  SOCIAL ICON
 -----------------------------------------*/
 .social-icon {
   margin: 0;
@@ -998,7 +998,7 @@ strong {
 
 
 /*---------------------------------------
-  RESPONSIVE STYLES               
+  RESPONSIVE STYLES
 -----------------------------------------*/
 @media screen and (max-width: 991px) {
   h1 {

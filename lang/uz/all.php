@@ -18,6 +18,7 @@ return [
     'title_service2' => 'Eng yaxshi narxlarda',
     'title_service3' => 'Yuqori narxlarda sotib olamiz',
     'title_service4' => 'Quyidagilarni taklif qilamiz',
+    'title_service5' => 'Arzon narxlarda sotamiz',
     'home_title' => 'Uydan chiqmay soting'
 
 ];

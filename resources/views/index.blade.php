@@ -96,20 +96,51 @@
         </div>
     </section>
 
-    <section class="about-section section-padding" id="section_2">
+    <section class="about-section section-padding " id="section_2">
         <div class="container">
             <div class="row align-items-center">
 
                 <div class="col-lg-5 col-12">
                     <small class="section-small-title">{{ __('all.our_service') }}</small>
 
-                    <h2 class="mt-2 mb-4"><span class="text-muted">{{ __('all.title_service1') }}</span> {{ __('all.title_service2') }}</h2>
+                    <h1 class="mt-2 mb-4"><span class="text-muted">{{ __('all.title_service1') }}</span> {{ __('all.title_service2') }}</h1>
 
-                    <h4 class="text-muted mb-3">{{ __('all.title_service3') }}</h4>
+                    <h5 class="text-muted mb-3">{{ __('all.title_service4') }}</h5>
 
                     <p>
-                    <h2> {{ __('all.title_service4') }} </h2>
+                    <h2> {{ __('all.title_service3') }} </h2>
+                    <ul>
+                        <li> Barcha turdagi maishiy texnikalar
+                        <ul>
+                            <li>muzlatkich</li>
+                            <li>kir yuvosh mashinasi</li>
+                            <li>elektr pech</li>
+                            <li>konditsioner</li>
+                            <li>televizor</li>
+                            <li>gaz plita</li>
+                        </ul>
+                        </li>
+                        <li> Barcha turdagi yumshoq mebellar
+                        <ul>
+                            <li>divan</li>
+                            <li>kreslo</li>
+                            <li>burchak oshxona mebel</li>
+                            <li>kravat va spalniy</li>
+                        </ul>
+                        </li>
+                        <li> Barcha turdagi mebellar
+                        <ul>
+                            <li>shkaf</li>
+                            <li>stol</li>
+                            <li>stul</li>
+                        </ul>
+                        </li>
+                        <li> Gilam va boshqa uydagi barcha jihozlarni</li>
+                    </ul>
+                    </p>
 
+                    <p>
+                    <h2> {{ __('all.title_service5') }} </h2>
                     <ul>
                         <li> Barcha turdagi maishiy texnikalar (Muzlatkich, kir yuvosh mashinasi, elektr pech,konditsioner,televizor,gaz plita) </li>
                         <li> Barcha turdagi yumshoq mebellar (divan, kreslo, burchak  oshxona mebel) </li>
@@ -119,12 +150,8 @@
                     </p>
                 </div>
 
-                <div class="col-lg-3 col-md-5 col-5 mx-lg-auto">
-                    <img src=" {{ asset('images/sharing-design-ideas-with-family.jpg')}}" class="about-image about-image-small img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-4 col-md-7 col-7">
-                    <img src="{{ assert('images/living-room-interior-wall-mockup-warm-tones-with-leather-sofa-which-is-kitchen-3d-rendering.jpg') }}" class="about-image img-fluid" alt="">
+                <div class="col-lg-5 col-12">
+                    <img src="{{ asset('images/service.png')}}" class="img-fluid w-100" alt="Service Image" style="max-width: 100%; height: auto; object-fit: contain;">
                 </div>
 
             </div>
